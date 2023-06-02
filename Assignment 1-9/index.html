@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One
+      document.getElementById("el").style.color = "red";
+      /*
+        The first code is the one which will not work,
+        as the element with id "el" will not be even created when code is being read
+        the code is working line by line so this script will come first without 
+        the element it self being created as the script is in line 9 and element in line 25
+      */
+    </script>
+    <script>
+      // Code Two
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>

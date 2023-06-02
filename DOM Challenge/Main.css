@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  font-family: Tahoma, Arial;
+}
+
+.website-head {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-head .menu {
+  display: flex;
+  gap: 20px;
+  color: #8b8b8b;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  list-style: none;
+}
+
+.website-head .logo {
+  font-weight: bold;
+  color: rgb(35, 169, 110);
+  font-size: 26px;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  min-height: calc(100vh - 143px);
+  box-sizing: border-box;
+}
+
+.product {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  width: calc((100% - 40px) / 3);
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(136, 136, 136);
+  border-radius: 6px;
+}
+
+.product span {
+  font-size: 40px;
+  color: black;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(35, 169, 110);
+  font-size: 26px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/* create element
+      create text node
+  */

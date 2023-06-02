@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author name": "Mark Johnson",
+    "category": "Science",
+    "articleTitle": "The Future of Space Exploration",
+    "content": "Space Is Good"
+  },
+  {
+    "id": 2,
+    "author name": "Sarah Lee",
+    "category": "Health and Wellness",
+    "articleTitle": "How to Improve Your Memory",
+    "content": "Health Is Good Take Care Of It"
+  },
+  {
+    "id": 3,
+    "author name": "John Smith",
+    "category": "Technology",
+    "articleTitle": "The Future of Autonomous Cars",
+    "content": "Cars Are Good"
+  },
+  {
+    "id": 4,
+    "author name": "Jane Brown",
+    "category": "Environment",
+    "articleTitle": "The Importance of Recycling",
+    "content": "Recycling Is Good"
+  },
+  {
+    "id": 5,
+    "author name": "David Kim",
+    "category": "Finance",
+    "articleTitle": "Tips for Saving Money on Your Taxes",
+    "content": "Saving Is Good"
+  }
+]
